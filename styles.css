@@ -1,0 +1,173 @@
+html { 
+/*Setting font soxe for the page*/
+  font-size: 21px;
+  text-align: center;
+}
+
+/*** Font and Border Styles ***/
+
+body {  
+  font-family: "Times New Roman", Times,     serif;
+  font-size: 1.13rem;
+  text-align: center;
+  border-style: solid;
+  border-top-width: 65px;
+  border-left-width: 15px;
+  border-right-width: 15px;
+  border-color: rgb(119, 136, 153);
+  overflow-x: hidden;
+}
+
+/***   Title Text Styles   ***/
+
+h1 {
+  text-align: center;
+   font-style: strong;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+  font-style: strong;
+}
+
+/***   Image Styles   ***/
+
+#img-div {
+  max-width: 100%;
+  margin: auto;
+  background: white;
+  padding: 0px;
+}
+
+#image {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: auto;
+}
+
+figure {
+  display: table;
+}
+
+figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  margin: auto;
+  width: 80%;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+/***   Tribute Section Styles   ***/
+
+.tribute {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+/***   Unordered Lists Styles   ***/
+
+ul {
+  width: 100%;
+  margin: auto;
+  max-width: 650px;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+/***  Blockgoute  Styles ***/
+.quote {
+  margin: auto;
+  width: 80%;
+  height: auto;
+}
+
+blockquote {
+  width: 80%;
+  margin: auto;
+  max-width: 650px;
+  margin-top: 2 em;
+  margin-bottom: 1em;
+  text-aligb: center;
+  resize: vertical;
+}
+
+/***  Foorter  Styles  ***/
+
+#smallFooter {
+  margin-left: -407px;
+  margin-right: -407px;
+  font-size: 1.13rem;
+}
+
+#mainFooter {
+  font-size: 1.13rem;
+  font-weight: bold;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/***  Media Queries  ***/
+
+@media (max-width: 600px) {
+  
+  body {
+     display: flec;
+     flex-direction: row;
+ }
+
+  h1 {
+      font-size: 0.9rem;
+  }
+  
+   p {
+      font-size: 0.9rem;
+  }
+  
+   figcaption {
+    font-size: 0.9rem;
+  }
+  
+  h3 {
+    font-sixe: 0.75rem;
+  }
+  
+  .tribute {
+    display: flex;
+    flex-directin: row;
+    width: 80%
+    margin: auto;
+  }
+  
+ .tribute ul li {
+     display: flex;
+     font-size: 0.8rem;
+  }
+  
+ .quote {
+    display: flex;
+    margin: auto;
+  }
+
+  blockquote {
+     display: flex;
+     font-size: 0.8rem;
+  }       
+  
+  #smallfooter{
+    font-size: 0.9rem;
+  }
+  
+  #mainFooter{
+    font-size: 0.9rem;
+  }
+}
